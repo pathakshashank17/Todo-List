@@ -1,5 +1,5 @@
 # Todo-List
-A fully function TodoList using:
+A fully functional Todo app using:
 - Express.js
 - MongodDB (Atlas) + Mongoose
 - Heroku
