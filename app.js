@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
 const _ = require("lodash");
 
-mongoose.connect("mongodb+srv://admin-shashank:password-DB@fruitsdb.zjuhp.mongodb.net/todoListDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-shashank:<passwordGoesHere>@fruitsdb.zjuhp.mongodb.net/todoListDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
