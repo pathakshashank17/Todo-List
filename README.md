@@ -5,7 +5,7 @@ A fully functional Todo app using:
 - Heroku
 - EJS & CSS
 
-Deployed at https://todolist17.herokuapp.com/
+Deployed at https://todo17.herokuapp.com/
 
 ## Usage
 - Enter text into the text field and hit `Enter` or click the `+` button
