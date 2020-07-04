@@ -26,6 +26,16 @@
             <input type="text" name="newTask" placeholder="Enter new task" autocomplete="off" autofocus>
             <button type="submit" name="list" value="<%=day%>">+</button>
         </form>
+        <button id="info" type="button" class="btn btn-info">Need Help ?</button>
+    </div>
+    
+    <div id="instructions" class="d-none">
+        <p>Instructions :</p>
+        <ul>
+            <li>Enter your todo into the text area and hit Enter or + to save.</li>
+            <li>Clicking on the checkbox deletes the todo</li>
+            <li>You can also create custom lists by appending "/your-list-name" (replace everything inside double quotes except the '/', with your list name) to the URL.</li>
+        </ul>
     </div>
 
 
@@ -33,6 +43,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!-- <script src="script.js"></script> -->
+    <script src="/css/index.js"></script>
 </body>
 </html>
